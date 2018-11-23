@@ -1,0 +1,42 @@
+#app {
+	background: url('../img/01.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 626px;
+	color: #eee;
+}
+
+#app .cover {
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+}
+
+#app .cover .header{
+	text-transform: uppercase;
+	padding: 1px 0px;
+	letter-spacing: 1px;
+}
+
+#app .cover .form{
+	height: 520px;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 5px;
+}
+#app .cover .form .title .lead{
+	font-size: 28px;
+	text-transform: capitalize;
+	color: #5182d1;
+}
+
+input[type="text"], option {
+	background-color: rgba(82, 78, 78, 0.7);
+	border: none;
+	color: #fff;
+}
+
+#app .cover footer h4{
+	color: #eee;
+}
+
